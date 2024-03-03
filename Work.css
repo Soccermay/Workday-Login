@@ -68,6 +68,13 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
+#Form > .btn-1 {
+    padding: 9px;
+    border-radius: 1.3rem;
+    background-color: var(--background);
+    cursor: pointer;
+}
+
 #Form > .btn:hover {
     color: rgb(255, 255, 255);
     transform: scale(1.2);
