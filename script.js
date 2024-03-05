@@ -38,7 +38,25 @@ function getMilk(bottles, money) {
     return change;
    
   }
+
+
+  //BMI calculator
+  function TotalWeight(height, weight) {
+    let weightgained = Math.round(height / weight - 150);
+    
+    console.log("Your weight sir is now " + weightgained);
+
+
+    return weightgained;
+  }
+
+  TotalWeight(6, 150);
   
+
+  let user = prompt("Enter your weight here, " + TotalWeight);
+
+
+
   console.log("Hello there Sir, here is your " + getMilk(12, 64) + " change."); //calling back the function with values
   
   
